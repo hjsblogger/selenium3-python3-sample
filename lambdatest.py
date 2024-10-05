@@ -16,23 +16,23 @@ access_key = os.getenv("LT_ACCESS_KEY")  # Replace the access key
 # selenium.common.exceptions.WebDriverException: Message: unsupported platfrom any
 ################################## @hjsblogger - End #############################
 
-options = ChromeOptions()
-options.browser_version = "latest"
-# options.platform_name = "Windows 10"
-options.platform_name = "win10"
-lt_options = {}
-lt_options["username"] = username
-lt_options["accessKey"] = access_key
-lt_options["video"] = True
-lt_options["resolution"] = "1920x1080"
-lt_options["network"] = True
-lt_options["build"] = "test_build"
-lt_options["project"] = "unit_testing"
-lt_options["smartUI.project"] = "test"
-lt_options["name"] = "basic_unit_selenium"
-lt_options["w3c"] = True
-lt_options["plugin"] = "python-python"
-options.set_capability("LT:Options", lt_options)
+# options = ChromeOptions()
+# options.browser_version = "latest"
+# # options.platform_name = "Windows 10"
+# options.platform_name = "win10"
+# lt_options = {}
+# lt_options["username"] = username
+# lt_options["accessKey"] = access_key
+# lt_options["video"] = True
+# lt_options["resolution"] = "1920x1080"
+# lt_options["network"] = True
+# lt_options["build"] = "test_build"
+# lt_options["project"] = "unit_testing"
+# lt_options["smartUI.project"] = "test"
+# lt_options["name"] = "basic_unit_selenium"
+# lt_options["w3c"] = True
+# lt_options["plugin"] = "python-python"
+# options.set_capability("LT:Options", lt_options)
 
 ################################## @hjsblogger - Start #############################################
 # Instead of Options class, use Capabilities from https://www.lambdatest.com/capabilities-generator/
