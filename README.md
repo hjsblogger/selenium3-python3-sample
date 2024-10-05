@@ -63,16 +63,16 @@ Next run the command ```pip3.9 install -r requirements.txt``` to install the req
 
 With this, all the dependencies and environment variables are set. Trigger the command ```python3.9 lambdatest.py``` to trigger Selenium 3 tests (with Python 3.9) on the LambdaTest dashboard.
 
-As seen above, the test execution was successful and the status is "Completed". You can find the status of test execution in the [LambdaTest Automation Dashboard](https://automation.lambdatest.com/build).
-
-<img width="1440" alt="lambdatest_dashboard_screenshot" src="https://github.com/user-attachments/assets/42028aa4-6f33-4d42-929a-b9d89a79e3c2">
-
 Shown below is the terminal screenshot of the test execution (success & intended failure scenario):
 
 <img width="713" alt="python3 9_selenium3 14_success" src="https://github.com/user-attachments/assets/ef84f508-53ab-42c7-bc3d-0bd8e808c445">
 <br></br>
 
 <img width="1399" alt="python3 9_selenium3 14_failure" src="https://github.com/user-attachments/assets/6dfab085-ea8f-4cdd-8052-158eb9bdd088">
+
+As seen below, the test execution was successful and the status is "Completed". You can find the status of test execution in the [LambdaTest Automation Dashboard](https://automation.lambdatest.com/build).
+
+<img width="1440" alt="lambdatest_dashboard_screenshot" src="https://github.com/user-attachments/assets/42028aa4-6f33-4d42-929a-b9d89a79e3c2">
 
 ## Have feedback or need assistance?
 Feel free to fork the repo and contribute to make it better! Email to [himanshu[dot]sheth[at]gmail[dot]com](mailto:himanshu.sheth@gmail.com) for any queries or ping me on the following social media sites:
